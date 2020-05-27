@@ -1,0 +1,25 @@
+.container {
+    max-width: 1200px;
+    padding: 0px 30px;
+    margin: 0 auto;
+    overflow: auto;
+  }
+  
+  .d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .padding20px{
+    padding: 0px 20px;
+  }
+  .border-right{
+    border-right:solid 2px $primaryFontColor;
+  }
+  .marginTop50px{
+    margin-top:50px
+  }
+  .float-right{
+    float: right
+  }

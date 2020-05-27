@@ -1,0 +1,140 @@
+@import './variables';
+@import './utils';
+@import './button';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $background-Color;
+  font-family: $Font;
+  line-height: 1.6;
+  font-size: $FontSize;
+  color:$defaultColor;
+  letter-spacing: 1px;
+}
+
+a {
+  color: settingTextColor($primaryColor);
+}
+p{
+  margin: 20px 0px;
+}
+.showcase {
+  @include setBackground($primaryColor);
+  height: 650px;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    .logo{
+      color: $secondaryColor;
+    }
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    li {
+      padding: 15px;
+    }
+    li.active a{
+      color:#e07f2a;
+    }
+  }
+
+  a {
+    color: settingTextColor($primaryColor);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  a:hover {
+    color: #e07f2a;
+  }
+
+  &-content {
+    //height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+    img {
+        width:40%;
+        margin-left: 30px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 1.2;
+    }
+    p {
+        margin: 20px 0
+    }
+  }
+}
+.text-center{
+  text-align: center;
+}
+.title{
+  font-size: $titleFontSize;
+  font-weight: $titleFontWeight;
+  line-height:1.2;
+
+}
+%main-section{
+  padding: 60px 20px;
+}
+.dark-bg{
+  @extend %main-section;
+  background:$colorDark;
+  color: settingTextColor($colorDark);;
+}
+
+.light-bg{
+  @extend %main-section;
+  background:$background-Color;
+  color:$colorDark;
+}
+.how-we-teach {
+    h3{
+       margin: 20px 0px;
+       font-weight: 300;
+    }
+    ul li{
+      list-style-position: inside;
+    }
+}
+.form-width{
+  width: 100%;
+}
+.form-control{
+  color:$secondaryColor;
+  border:none;
+  border-bottom: solid 1px $primaryFontColor;
+  background:transparent;
+  margin-left: 10px;
+  padding: 5px 2px;
+  width: 100%;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $secondaryColor;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $secondaryColor;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: $secondaryColor;
+}
+.form-group{
+  margin-bottom: 40px;
+}

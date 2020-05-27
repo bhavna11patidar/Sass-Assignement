@@ -1,0 +1,369 @@
+.my-1 {
+  margin: 1px;
+}
+
+.my-1 {
+  margin: 1px;
+  padding: 5px;
+}
+
+.my-1 {
+  margin: 1px;
+  padding: 5px;
+}
+
+.my-1 {
+  margin: 1px;
+  padding: 5px;
+}
+
+.my-1 {
+  margin: 1px;
+  padding: 5px;
+}
+
+.my-2 {
+  margin: 2px;
+}
+
+.my-2 {
+  margin: 2px;
+  padding: 5px;
+}
+
+.my-2 {
+  margin: 2px;
+  padding: 5px;
+}
+
+.my-2 {
+  margin: 2px;
+  padding: 5px;
+}
+
+.my-2 {
+  margin: 2px;
+  padding: 5px;
+}
+
+.my-3 {
+  margin: 3px;
+}
+
+.my-3 {
+  margin: 3px;
+  padding: 5px;
+}
+
+.my-3 {
+  margin: 3px;
+  padding: 5px;
+}
+
+.my-3 {
+  margin: 3px;
+  padding: 5px;
+}
+
+.my-3 {
+  margin: 3px;
+  padding: 5px;
+}
+
+.my-4 {
+  margin: 4px;
+}
+
+.my-4 {
+  margin: 4px;
+  padding: 5px;
+}
+
+.my-4 {
+  margin: 4px;
+  padding: 5px;
+}
+
+.my-4 {
+  margin: 4px;
+  padding: 5px;
+}
+
+.my-4 {
+  margin: 4px;
+  padding: 5px;
+}
+
+.my-5 {
+  margin: 5px;
+}
+
+.my-5 {
+  margin: 5px;
+  padding: 5px;
+}
+
+.my-5 {
+  margin: 5px;
+  padding: 5px;
+}
+
+.my-5 {
+  margin: 5px;
+  padding: 5px;
+}
+
+.my-5 {
+  margin: 5px;
+  padding: 5px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0px 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.padding20px {
+  padding: 0px 20px;
+}
+
+.border-right {
+  border-right: solid 2px white;
+}
+
+.marginTop50px {
+  margin-top: 50px;
+}
+
+.float-right {
+  float: right;
+}
+
+.btn-primary, .btn-secondary, .btn-default {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 10px 5px;
+}
+
+.btn-primary:hover, .btn-secondary:hover, .btn-default:hover {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: orange;
+}
+
+.btn-secondary {
+  background-color: white;
+}
+
+.btn-default {
+  background: #ececec;
+  border: solid 1.5px black;
+  text-transform: uppercase;
+}
+
+.btn-default:hover {
+  background: black;
+  color: #FFF;
+  border: solid 1.5px #FFF;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Oswald", sans-serif;
+  line-height: 1.6;
+  font-size: 17px;
+  color: #868382;
+  letter-spacing: 1px;
+}
+
+a {
+  color: black;
+}
+
+p {
+  margin: 20px 0px;
+}
+
+.showcase {
+  background-color: #ECECEC;
+  color: black;
+  height: 650px;
+}
+
+.showcase nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0px;
+}
+
+.showcase nav .logo {
+  color: orange;
+}
+
+.showcase nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.showcase nav li {
+  padding: 15px;
+}
+
+.showcase nav li.active a {
+  color: #e07f2a;
+}
+
+.showcase a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.showcase a:hover {
+  color: #e07f2a;
+}
+
+.showcase-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.showcase-content img {
+  width: 40%;
+  margin-left: 30px;
+}
+
+.showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.showcase-content p {
+  margin: 20px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.dark-bg, .light-bg {
+  padding: 60px 20px;
+}
+
+.dark-bg {
+  background: black;
+  color: #ECECEC;
+}
+
+.light-bg {
+  background: white;
+  color: black;
+}
+
+.how-we-teach h3 {
+  margin: 20px 0px;
+  font-weight: 300;
+}
+
+.how-we-teach ul li {
+  list-style-position: inside;
+}
+
+.form-width {
+  width: 100%;
+}
+
+.form-control {
+  color: orange;
+  border: none;
+  border-bottom: solid 1px white;
+  background: transparent;
+  margin-left: 10px;
+  padding: 5px 2px;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: orange;
+}
+
+:-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: orange;
+}
+
+::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: orange;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: orange;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: orange;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: orange;
+}
+
+.form-group {
+  margin-bottom: 40px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,49 @@
+$background-Color: lighten(white, 10%);
+$Font:'Oswald', sans-serif;
+$FontSize:17px;
+$primaryColor: #ECECEC;
+$primaryFontColor: white;
+$secondaryColor: orange;
+$titleColor:black;
+$titleFontSize:45px;
+$titleFontWeight:300;
+$defaultColor:#868382;
+$colorDark:black;
+@function settingTextColor($color){
+    @if(lightness($color) > 70) {
+        @return $colorDark;
+    } @else  {
+        @return #ECECEC;
+    }
+}
+
+
+@mixin setBackground($color) {
+    background-color: $color;
+    color:settingTextColor($color);
+}
+
+
+$spaceamounts:(1,2,3,4,5);
+
+@each $space in $spaceamounts {
+    .my-#{$space} {
+        margin: #{$space}px;
+    }
+    .my-#{$space} {
+        margin: #{$space}px;
+        padding:5px
+    }
+    .my-#{$space} {
+        margin: #{$space}px;
+        padding:5px
+    }
+    .my-#{$space} {
+        margin: #{$space}px;
+        padding:5px
+    }
+    .my-#{$space} {
+        margin: #{$space}px;
+        padding:5px
+    }
+}

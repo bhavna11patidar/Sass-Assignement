@@ -1,0 +1,32 @@
+%btn {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 10px 5px;
+
+  &:hover {
+    transform: scale(0.98);
+  }
+}
+
+.btn-primary {
+  @extend %btn;
+  background-color: $secondaryColor;
+}
+
+.btn-secondary {
+  @extend %btn;
+  background-color: lighten($primaryColor, 20%);
+}
+
+.btn-default{
+  @extend %btn;
+  background:#ececec;
+  border:solid 1.5px black;
+  text-transform: uppercase;
+}
+.btn-default:hover{
+  background:black;
+  color:#FFF;
+  border:solid 1.5px #FFF;
+}
